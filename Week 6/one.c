@@ -1,11 +1,3 @@
-/*
-1. Recursive Descent Parser
-E → TE’
-E’→ +TE’ | ? // ? is epsilon
-T → FT’
-T’→ *FT’ | ?
-F → (E) | i
-*/
 #include<stdio.h>
 #include<string.h>
 int E(),Edash(),T(),Tdash(),F();
