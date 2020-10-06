@@ -1,10 +1,3 @@
-/*
-2.  G = ({S, L}, {(, ), a, ,}, {S → (L) | a ; L→ L, S | S}, S)
-after removing left recursion manually, 
-S->(L);
-L->SL';
-L'->,SL'|?   // ? is epsilon
-*/
 #include<stdio.h>
 #include<string.h>
 int S(),L(),Ldash();
